@@ -1,0 +1,32 @@
+{
+  "name": "javascript",
+  "version": "0.0.1",
+  "description": "File to get all dependencies for project correct work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js & allure generate allure-results"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitbud.epam.com/Ruzaliia_Yakunina/cdp_aqa_q3q4_2016"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "allure"
+  ],
+  "author": "Ruzaliia Yakunina",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "jasmine": "^2.5.2",
+    "protractor": "^4.0.14",
+    "allure-js-commons": "1.1.6",
+    "del": "^2.2.2",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-protractor": "^3.0.0",
+    "jasmine-allure-reporter": "0.2.3",
+    "jasmine-core": "2.3.0",
+    "jasmine-reporters": "^1.0.0"
+  }
+}
